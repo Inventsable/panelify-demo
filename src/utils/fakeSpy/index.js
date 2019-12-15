@@ -1,20 +1,20 @@
 export default {
   "path": {
-    "root": "C:/Users/TRSch/AppData/Roaming/Adobe/CEP/extensions/bombino-panelify",
+    "root": "C:/Users/TRSch/AppData/Roaming/Adobe/CEP/extensions/panelify-demo",
     "userData": "C:/Users/TRSch/AppData/Roaming",
     "commonFiles": "C:/Program Files/Common Files",
     "myDocuments": "C:/Users/TRSch/OneDrive/Documents",
-    "hostApplication": "C:/Program Files/Adobe/Adobe After Effects 2020/Support Files/AfterFX.exe"
+    "hostApplication": "C:/Program Files/Adobe/Adobe Illustrator 2020/Support Files/Contents/Windows/Illustrator.exe"
   },
   "package": {
-    "name": "bombino-panelify",
+    "name": "panelify-demo",
     "version": "1.0.0",
     "description": "Bombino-quasar-panelify template",
     "productName": "Quasar Panelify",
     "cordovaId": "org.cordova.panelify",
     "repository": "Inventsable/bombino-quasar-panelify",
     "author": "Tom Scharstein II <tom@inventsable.cc>",
-    "homepage": "https://github.com/Inventsable/bombino-quasar-panelify",
+    "homepage": "https://github.com/Inventsable/panelify-demo",
     "capacitorId": "",
     "private": true,
     "scripts": {
@@ -25,8 +25,7 @@ export default {
       "update": "bombino-cmd update",
       "register": "bombino-cmd register",
       "help": "bombino-cmd help",
-      "convert": "node ./bin/convertToPanelify.js",
-      "clear": "node ./bin/deleteRenders.js"
+      "convert": "node ./bin/convertToPanelify.js"
     },
     "dependencies": {
       "@quasar/extras": "^1.0.0",
@@ -34,8 +33,7 @@ export default {
       "cluecumber": "0.0.31",
       "lottie-web": "^5.5.9",
       "quasar": "^1.0.0",
-      "starlette": "^0.4.5",
-      "vue-drag-drop": "^1.1.4"
+      "starlette": "^0.4.5"
     },
     "devDependencies": {
       "@quasar/app": "^1.0.0",
@@ -44,8 +42,7 @@ export default {
       "chalk": "^3.0.0",
       "fs-extra": "^8.1.0",
       "inquirer": "^7.0.0",
-      "types-for-adobe": "^1.5.0",
-      "worker-loader": "^2.0.0"
+      "types-for-adobe": "^1.5.0"
     },
     "engines": {
       "node": ">= 8.9.0",
@@ -58,36 +55,36 @@ export default {
   },
   "author": "Tom Scharstein II <tom@inventsable.cc>",
   "repository": "Inventsable/bombino-quasar-panelify",
-  "homepage": "https://github.com/Inventsable/bombino-quasar-panelify",
-  "localhost": "http://localhost:4469",
+  "homepage": "https://github.com/Inventsable/panelify-demo",
+  "localhost": "http://localhost:2266",
   "isDev": true,
   "extVersion": "1.0.0",
-  "appName": "AEFT",
+  "appName": "ILST",
   "appLocale": "en_US",
-  "appVersion": "17.0",
+  "appVersion": "24.0.0",
   "userAgent": "Windows",
   "cepVersion": "9.4.0",
   "hostCapabilities": {
-    "DISABLE_FLASH_EXTENSIONS": true,
-    "EXTENDED_PANEL_ICONS": false,
+    "DISABLE_FLASH_EXTENSIONS": false,
+    "EXTENDED_PANEL_ICONS": true,
     "SUPPORT_HTML_EXTENSIONS": true,
     "DELEGATE_APE_ENGINE": false,
     "EXTENDED_PANEL_MENU": true
   },
-  "userId": "8167525A54922E990A4C98C6@AdobeID",
-  "extID": "com.bombino-panelify.panel",
+  "userId": "",
+  "extID": "com.panelify-demo.panel",
   "exts": [],
   "ext": {
-    "mainPath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\bombino-panelify\\src\\index-dev.html",
+    "mainPath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\panelify-demo\\src\\index-dev.html",
     "maxHeight": 500,
     "maxWidth": 598,
     "specialExtensionDataXML": "",
-    "id": "com.bombino-panelify.panel",
-    "name": "bombino-panelify",
+    "id": "com.panelify-demo.panel",
+    "name": "panelify-demo",
     "width": 280,
     "windowType": "Panel",
     "isAutoVisible": true,
-    "basePath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\bombino-panelify",
+    "basePath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\panelify-demo",
     "height": 400,
     "minWidth": 260,
     "requiredRuntimeList": [
@@ -110,16 +107,16 @@ export default {
     "defaultExtensionDataXML": ""
   },
   "activeExt": {
-    "mainPath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\bombino-panelify\\src\\index-dev.html",
+    "mainPath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\panelify-demo\\src\\index-dev.html",
     "maxHeight": 500,
     "maxWidth": 598,
     "specialExtensionDataXML": "",
-    "id": "com.bombino-panelify.panel",
-    "name": "bombino-panelify",
+    "id": "com.panelify-demo.panel",
+    "name": "panelify-demo",
     "width": 280,
     "windowType": "Panel",
     "isAutoVisible": true,
-    "basePath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\bombino-panelify",
+    "basePath": "C:\\Users\\TRSch\\AppData\\Roaming\\Adobe\\CEP\\extensions\\panelify-demo",
     "height": 400,
     "minWidth": 260,
     "requiredRuntimeList": [
@@ -141,7 +138,7 @@ export default {
     "isPluginExtension": false,
     "defaultExtensionDataXML": ""
   },
-  "extName": "bombino-panelify",
+  "extName": "panelify-demo",
   getAllExtensions() {
       return null;
     },
