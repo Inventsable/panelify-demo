@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.panelify-demo.panel">
+        <HostList>
+            <Host Name="ILST" Port="2266" />
+            <Host Name="AEFT" Port="2267" />
+        </HostList>
+    </Extension>
+</ExtensionList>

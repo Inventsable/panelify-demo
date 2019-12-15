@@ -1,0 +1,47 @@
+{
+  "name": "panelify-demo",
+  "version": "1.0.0",
+  "description": "Bombino-quasar-panelify template",
+  "productName": "Quasar Panelify",
+  "cordovaId": "org.cordova.panelify",
+  "repository": "Inventsable/bombino-quasar-panelify",
+  "author": "Tom Scharstein II <tom@inventsable.cc>",
+  "homepage": "https://github.com/Inventsable/panelify-demo",
+  "capacitorId": "",
+  "private": true,
+  "scripts": {
+    "serve": "quasar dev",
+    "build": "quasar build",
+    "sign": "bombino-cmd sign",
+    "switch": "bombino-cmd switch",
+    "update": "bombino-cmd update",
+    "register": "bombino-cmd register",
+    "help": "bombino-cmd help",
+    "convert": "node ./bin/convertToPanelify.js"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "cep-spy": "^1.1.1",
+    "cluecumber": "0.0.31",
+    "lottie-web": "^5.5.9",
+    "quasar": "^1.0.0",
+    "starlette": "^0.4.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@quasar/quasar-app-extension-dotenv": "^1.0.0",
+    "bombino-commands": "^1.0.1",
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "types-for-adobe": "^1.5.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
